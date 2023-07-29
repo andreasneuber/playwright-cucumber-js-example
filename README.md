@@ -46,3 +46,9 @@ or
 
 ### How can I make tests run faster?
 In file `cucumber.conf.js` find line with `slowMo` and reduce the value.
+
+### What is the test runner?
+Cucumber-JS. See the "scripts" responsible for executing tests in `package.json`.
+Cucumber parses the feature files, and then in the step definitions underlying Playwright functionality is called.
+Good to keep in mind when going through Playwright documentation - for example with https://playwright.dev/docs/videos, 
+the fitting code is always under tab "Library" not "Test".
