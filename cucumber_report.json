@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 885040399
+              "duration": 165384800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1401432899
+              "duration": 88951399
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3441975699
+              "duration": 222110899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11625200
+              "duration": 2079700
             }
           },
           {
@@ -65,9 +65,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:25"
             },
             "result": {
-              "status": "failed",
-              "duration": 2327865400,
-              "error_message": "locator.click: Target page, context or browser has been closed\n    at EmployeePage.clickSearchBtn (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\acceptance\\pageObjects\\employeePage.js:36:30)\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:32:24)"
+              "status": "passed",
+              "duration": 224924300
             }
           },
           {
@@ -79,8 +78,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:34"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 19762400
             }
           },
           {
@@ -88,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 21931400
+              "duration": 47096099
             }
           }
         ],
@@ -111,9 +110,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 15991400,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 111150899
             }
           },
           {
@@ -125,8 +123,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 67549800
             }
           },
           {
@@ -138,8 +136,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 159124800
             }
           },
           {
@@ -151,8 +149,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 838999
             }
           },
           {
@@ -164,8 +162,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:45"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 131888799
             }
           },
           {
@@ -177,8 +175,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2810999
             }
           },
           {
@@ -186,7 +184,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16083900
+              "duration": 29289800
             }
           }
         ],
@@ -220,9 +218,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5749300,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 123065499
             }
           },
           {
@@ -234,8 +231,8 @@
               "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:9"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 269660799
             }
           },
           {
@@ -247,8 +244,8 @@
               "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 345670800
             }
           },
           {
@@ -260,8 +257,8 @@
               "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1189900
             }
           },
           {
@@ -269,7 +266,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16062100
+              "duration": 61013100
             }
           }
         ],
@@ -303,9 +300,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5490300,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 119992700
             }
           },
           {
@@ -317,8 +313,8 @@
               "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 109042799
             }
           },
           {
@@ -330,8 +326,8 @@
               "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 98784299
             }
           },
           {
@@ -343,8 +339,8 @@
               "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10277700
             }
           },
           {
@@ -352,7 +348,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22447799
+              "duration": 26858099
             }
           }
         ],
@@ -386,9 +382,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 6162000,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 144546499
             }
           },
           {
@@ -400,8 +395,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 82331499
             }
           },
           {
@@ -413,8 +408,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 181995900
             }
           },
           {
@@ -426,8 +421,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 16197600
             }
           },
           {
@@ -435,7 +430,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16015899
+              "duration": 21725800
             }
           }
         ],
@@ -458,9 +453,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5209900,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 122874100
             }
           },
           {
@@ -472,8 +466,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 79725599
             }
           },
           {
@@ -485,8 +479,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 191166000
             }
           },
           {
@@ -498,8 +492,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 11358000
             }
           },
           {
@@ -507,7 +501,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 14848199
+              "duration": 23594699
             }
           }
         ],
@@ -530,9 +524,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5045600,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 126555099
             }
           },
           {
@@ -544,8 +537,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 85747200
             }
           },
           {
@@ -557,8 +550,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 193207400
             }
           },
           {
@@ -570,8 +563,8 @@
               "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 13418999
             }
           },
           {
@@ -579,7 +572,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12520400
+              "duration": 21496700
             }
           }
         ],
@@ -613,9 +606,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5954200,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 117081400
             }
           },
           {
@@ -627,8 +619,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 76811400
             }
           },
           {
@@ -654,11 +646,11 @@
             "line": 7,
             "name": "I enter following for login",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:9"
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 48211000
             }
           },
           {
@@ -667,11 +659,11 @@
             "line": 10,
             "name": "I click login button",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:16"
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 91465699
             }
           },
           {
@@ -680,11 +672,11 @@
             "line": 11,
             "name": "I should be able to access the protected area",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:20"
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10424800
             }
           },
           {
@@ -692,7 +684,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13165399
+              "duration": 18120699
             }
           }
         ],
@@ -715,9 +707,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 6296300,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 144679900
             }
           },
           {
@@ -729,8 +720,8 @@
               "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 78604600
             }
           },
           {
@@ -756,11 +747,11 @@
             "line": 16,
             "name": "I enter following values to login",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:24"
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:22"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 52583800
             }
           },
           {
@@ -769,11 +760,11 @@
             "line": 19,
             "name": "I click login button",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:16"
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 111718899
             }
           },
           {
@@ -782,11 +773,11 @@
             "line": 20,
             "name": "I should be able to access the protected area",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:20"
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10313000
             }
           },
           {
@@ -794,7 +785,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22883099
+              "duration": 24259100
             }
           }
         ],
@@ -828,9 +819,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 15627900,
-              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\user\\Desktop\\Under-Git\\playwright-cucumber-framework\\cucumber.conf.js:27:21)"
+              "status": "passed",
+              "duration": 118591400
             }
           },
           {
@@ -842,8 +832,8 @@
               "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 74760700
             }
           },
           {
@@ -920,8 +910,8 @@
               "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 266242499
             }
           },
           {
@@ -933,8 +923,8 @@
               "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 12483599
             }
           },
           {
@@ -942,7 +932,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13602400
+              "duration": 30781200
             }
           }
         ],
