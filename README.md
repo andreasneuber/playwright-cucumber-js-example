@@ -41,3 +41,8 @@ or
 - Run tests: `npm run test:all`
 - Generate HTML report: `npm run report`
 - Open the generated HTML report in browser located here: `reports/cucumber_report.html`
+
+## FAQ
+
+### How can I make tests run faster?
+In file `cucumber.conf.js` find line with `slowMo` and reduce the value.
