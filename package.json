@@ -14,5 +14,8 @@
     "cucumber-html-reporter": "^7.1.1",
     "@playwright/test": "^1.37.1",
     "playwright": "^1.37.1"
+  },
+  "overrides": {
+    "semver": "^7.5.3"
   }
 }
