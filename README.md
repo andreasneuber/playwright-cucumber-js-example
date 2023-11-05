@@ -42,6 +42,13 @@ or
 - Generate HTML report: `npm run report`
 - Open the generated HTML report in browser located here: `reports/cucumber_report.html`
 
+## Docker
+Build the container: `docker build --no-cache -t playwright-cucumber-js-docker .`
+
+Then run it: `docker run --rm --net="host" -it playwright-cucumber-js-docker:latest npm run test:normal`
+
+`--net=host` is needed because the application under test is running on `http://localhost:8000`
+
 ## FAQ
 
 ### How can I make tests run faster?

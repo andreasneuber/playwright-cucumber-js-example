@@ -14,17 +14,10 @@ Object.assign(global, {
 
 // launch the browser
 BeforeAll(async function () {
-    //good for local test development
     global.browser = await chromium.launch({
-        headless: false,
-        slowMo: 1000,
+        headless: true,
+        slowMo: 100,
     });
-
-    //for running tests in CI
-    // global.browser = await chromium.launch({
-    //     headless: true,
-    //     slowMo: 1,
-    // });
 });
 
 // close the browser
