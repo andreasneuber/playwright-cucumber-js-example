@@ -54,6 +54,12 @@ Then run it: `docker run --rm --net="host" -it playwright-cucumber-js-docker:lat
 ### How can I make tests run faster?
 In file `cucumber.conf.js` find line with `slowMo` and reduce the value.
 
+### How do I make the browser window visible?
+In file `cucumber.conf.js` find line with `headless: true` and set value to "false".
+
+### How do I update the browsers which come along with Playwright?
+`npx playwright install`
+
 ### What is the test runner?
 Cucumber-JS. See the "scripts" responsible for executing tests in `package.json`.
 Cucumber parses the feature files, and then in the step definitions underlying Playwright functionality is called.
