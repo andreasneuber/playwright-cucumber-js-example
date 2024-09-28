@@ -50,6 +50,10 @@ Then run it: `docker run --rm --net="host" -it playwright-cucumber-js-docker:lat
 `--net=host` is needed because the application under test is running on `http://localhost:8000`
 
 ## FAQ
+### What is the test runner in this project?
+Its Cucumber (see also file `package.json` > scripts).  
+Cucumber parses first the feature files, finds the needed step definitions, step definitions use Playwright.  
+This means the config file for settings like speed, heeadless/headed and more is `cucumber.config.js`
 
 ### How can I make tests run faster?
 In file `cucumber.conf.js` find line with `slowMo` and reduce the value.
