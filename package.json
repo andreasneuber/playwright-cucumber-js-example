@@ -9,11 +9,11 @@
     "report": "node reporter.js"
   },
   "devDependencies": {
-    "@cucumber/cucumber": "^10.8.0",
+    "@cucumber/cucumber": "^11.0.1",
     "@cucumber/pretty-formatter": "^1.0.1",
     "cucumber-html-reporter": "^7.1.1",
-    "@playwright/test": "^1.44.1",
-    "playwright": "^1.44.1"
+    "@playwright/test": "^1.47.2",
+    "playwright": "^1.7.2"
   },
   "overrides": {
     "semver": "^7.5.3"
