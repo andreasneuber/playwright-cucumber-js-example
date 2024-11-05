@@ -1,13 +1,13 @@
-FROM node:20.9
+#FROM node:20.9
 
 # Get the latest version of Playwright
-FROM mcr.microsoft.com/playwright:v1.39.0-jammy
+FROM mcr.microsoft.com/playwright:v1.48.2-jammy
 
 # Set the work directory for the application
 WORKDIR /app
 
 # Set the environment path to node_modules/.bin
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH="/app/node_modules/.bin:$PATH"
 
 # COPY the needed files to the app folder in Docker image
 COPY acceptance/ /app/acceptance/
