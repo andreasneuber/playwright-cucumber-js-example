@@ -49,6 +49,14 @@ Then run it: `docker run --rm --net="host" -it playwright-cucumber-js-docker:lat
 
 `--net=host` is needed because the application under test is running on `http://localhost:8000`
 
+## Docker Compose with "Application under Test"
+Build container with the sample application https://github.com/andreasneuber/automatic-test-sample-site:     
+`docker build --no-cache -t sample-site .`
+
+Build the container with tests here: `docker build --no-cache -t playwright-cucumber-js-docker .`
+
+Then: `docker compose up`
+
 ## FAQ
 ### What is the test runner in this project?
 Its Cucumber (see also file `package.json` > scripts).  
