@@ -1,4 +1,4 @@
-# playwright-cucumber-framework
+# playwright-cucumber-js-example
 Sample implementation with Playwright and Cucumber
 
 ## Application under test
