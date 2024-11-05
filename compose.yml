@@ -2,7 +2,7 @@ name: Test-Sample-Site-with-Playwright
 services:
     sample-site:
         ports:
-            - 8000:8000
+            - "8000:8000"
         stdin_open: true
         tty: true
         image: sample-site:latest
