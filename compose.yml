@@ -1,0 +1,18 @@
+name: Test-Sample-Site-with-Playwright
+services:
+    sample-site:
+        ports:
+            - 8000:8000
+        stdin_open: true
+        tty: true
+        image: sample-site:latest
+        command: php -S 0.0.0.0:8000
+    playwright-cucumber-js-docker:
+        network_mode: host
+        stdin_open: true
+        tty: true
+        image: playwright-cucumber-js-docker:latest
+        command: npm run test:normal
+        depends_on:
+            sample-site:
+              condition: service_started
