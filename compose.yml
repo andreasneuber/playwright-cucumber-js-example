@@ -7,6 +7,12 @@ services:
         tty: true
         image: sample-site:latest
         command: php -S 0.0.0.0:8000
+        healthcheck:
+            test: curl --fail http://localhost:8000 || exit 1
+            interval: 30s
+            retries: 5
+            start_period: 10s
+            timeout: 8s
     playwright-cucumber-js-docker:
         network_mode: host
         stdin_open: true
@@ -15,4 +21,4 @@ services:
         command: npm run test:normal
         depends_on:
             sample-site:
-              condition: service_started
+                condition: service_healthy
