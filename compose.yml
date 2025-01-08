@@ -19,6 +19,8 @@ services:
         tty: true
         image: playwright-cucumber-js-docker:latest
         command: bash -c "npm run test:normal && npm run report"
+        volumes:
+            - .:/app/reports
         depends_on:
             sample-site:
                 condition: service_healthy
