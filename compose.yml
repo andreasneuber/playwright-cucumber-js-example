@@ -18,7 +18,7 @@ services:
         stdin_open: true
         tty: true
         image: playwright-cucumber-js-docker:latest
-        command: npm run test:normal
+        command: bash -c "npm run test:normal && npm run report"
         depends_on:
             sample-site:
                 condition: service_healthy
