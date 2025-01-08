@@ -57,6 +57,8 @@ Build the container with tests here: `docker build --no-cache -t playwright-cucu
 
 Then: `docker compose up`
 
+All tests will be executed and the `cucumber_report.html` report will be copied to root directory.
+
 ## FAQ
 ### What is the test runner in this project?
 Its Cucumber (see also file `package.json` > scripts).  
