@@ -1,7 +1,7 @@
 #FROM node:20.9
 
 # Get the latest version of Playwright
-FROM mcr.microsoft.com/playwright:v1.48.2-jammy
+FROM mcr.microsoft.com/playwright:v1.49.1-jammy
 
 # Set the work directory for the application
 WORKDIR /app
@@ -14,6 +14,7 @@ COPY acceptance/ /app/acceptance/
 COPY reports/ /app/reports/
 COPY package.json /app/
 COPY cucumber.conf.js /app/
+COPY cucumber_report.json /app/
 COPY reporter.js /app/
 
 # Get the needed libraries to run Playwright
