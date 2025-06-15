@@ -38,8 +38,8 @@ or
 `npm run test:e2e acceptance/features/ConcurrentWindows.feature`
 
 ## Reporting
-- Run tests: `npm run test:all`
-- Generate HTML report: `npm run report`
+- Run tests
+- Then generate HTML report: `npm run report`
 - Open the generated HTML report in browser located here: `reports/cucumber_report.html`
 
 ## Docker
