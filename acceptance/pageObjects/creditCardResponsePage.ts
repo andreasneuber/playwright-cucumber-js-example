@@ -5,7 +5,7 @@ export class CreditCardResponsePage extends BasePage {
     readonly alertMessageBox: Locator;
     readonly alertMessageBoxResponse: Locator;
     readonly alertMessageBoxMoreInfo: Locator;
-    protected readonly url: string = '?action=responsecc';
+    protected readonly url: string = 'responsecc';
 
     constructor(page: Page) {
         super(page);

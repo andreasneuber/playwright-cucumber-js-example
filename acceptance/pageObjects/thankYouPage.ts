@@ -3,7 +3,7 @@ import { BasePage } from './basePage';
 
 export class ThankYouPage extends BasePage {
     readonly thankYouMessageHeader: Locator;
-    protected readonly url: string = '?action=thankYou';
+    protected readonly url: string = 'thankYou';
 
     constructor(page: Page) {
         super(page);

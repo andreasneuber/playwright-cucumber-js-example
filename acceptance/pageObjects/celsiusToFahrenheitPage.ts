@@ -5,7 +5,7 @@ export class CelsiusToFahrenheitPage extends BasePage {
     readonly celsiusInput: Locator;
     readonly convertButton: Locator;
     readonly fahrenheitInput: Locator;
-    protected readonly url: string = '?action=form6';
+    protected readonly url: string = 'form6';
 
     constructor(page: Page) {
         super(page);

@@ -21,7 +21,7 @@ export interface TestConfig {
 }
 
 export const config: TestConfig = {
-    baseUrl: process.env.BASE_URL || 'http://localhost:8000/index.php',
+    baseUrl: process.env.BASE_URL || 'http://localhost:5000/',
     browser: (process.env.BROWSER as 'chromium' | 'firefox' | 'webkit') || 'chromium',
     headless: process.env.HEADLESS === 'true',
     slowMo: parseInt(process.env.SLOW_MO || '100'),

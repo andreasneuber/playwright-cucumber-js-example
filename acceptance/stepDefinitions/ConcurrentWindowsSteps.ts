@@ -7,13 +7,13 @@ let brownFriend: Page;
 
 Given('different people went to different sites', async function () {
     orangeFriend = page;
-    await orangeFriend.goto('http://localhost:8000/index.php?action=orangePage');
+    await orangeFriend.goto('http://localhost:5000/?action=orangePage');
 
     greenFriend = await context.newPage();
-    await greenFriend.goto('http://localhost:8000/index.php?action=greenPage');
+    await greenFriend.goto('http://localhost:5000/?action=greenPage');
 
     brownFriend = await context.newPage();
-    await brownFriend.goto('http://localhost:8000/index.php?action=brownPage');
+    await brownFriend.goto('http://localhost:5000/?action=brownPage');
 });
 
 When('they realize that they forgot what they actually wanted to do there', async function () {

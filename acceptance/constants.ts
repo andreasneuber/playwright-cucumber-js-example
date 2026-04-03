@@ -60,15 +60,15 @@ export const SELECTORS = {
 } as const;
 
 export const URLS = {
-    LOGIN: '?action=form4',
-    USER_ACCOUNT: '?action=useraccount',
-    EMPLOYEE: '?action=employee',
-    SALES: '?action=sales',
-    CELSIUS: '?action=form6',
-    CREDIT_CARD: '?action=form3',
-    CREDIT_CARD_RESPONSE: '?action=responsecc',
-    DETAILS_FORM: '?action=form1',
-    THANK_YOU: '?action=thankYou'
+    LOGIN: 'form4',
+    USER_ACCOUNT: 'useraccount',
+    EMPLOYEE: 'employee',
+    SALES: 'sales',
+    CELSIUS: 'form6',
+    CREDIT_CARD: 'form3',
+    CREDIT_CARD_RESPONSE: 'responsecc',
+    DETAILS_FORM: 'form1',
+    THANK_YOU: 'thankYou'
 } as const;
 
 export const TEXT_CONTENT = {

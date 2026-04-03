@@ -8,7 +8,7 @@ export class CreditCardEntryPage extends BasePage {
     readonly inputCvv: Locator;
     readonly buttonPayNow: Locator;
     readonly creditCardInfoEntryForm: Locator;
-    protected readonly url: string = '?action=form3';
+    protected readonly url: string = 'form3';
 
     constructor(page: Page) {
         super(page);

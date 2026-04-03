@@ -13,7 +13,7 @@ export class ProvideYourDetailsPage extends BasePage {
     readonly inputHomePhoneNumber: Locator;
     readonly inputEmail: Locator;
     readonly buttonSubmitInfo: Locator;
-    protected readonly url: string = '?action=form1';
+    protected readonly url: string = 'form1';
 
     constructor(page: Page) {
         super(page);

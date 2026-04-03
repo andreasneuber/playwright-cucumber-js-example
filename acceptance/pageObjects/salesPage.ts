@@ -6,7 +6,7 @@ export class SalesPage extends BasePage {
     readonly salesYearMonthHeaderCell: Locator;
     readonly monthCell: Locator;
     readonly salesAmountCell: string = "//td[contains(text(), '%s')]/following-sibling::td";
-    protected readonly url: string = '?action=sales';
+    protected readonly url: string = 'sales';
 
     constructor(page: Page) {
         super(page);
