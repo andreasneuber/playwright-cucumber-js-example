@@ -44,17 +44,18 @@ Then('information appears that employee {string} belongs to department {string}'
         expect(actualDepartmentName).toEqual(expectedDepartmentName);
     });
 
-When('Admin looks up total sales amount for month {string} in year {string}', async function (month: string, year: string) {
+When('Admin looks up the total sales amount for month {string} of last year', async function (month: string) {
     const userAccountPage = new UserAccountPage(page);
     await userAccountPage.navigateToSalesSection();
 
     const salesPage = new SalesPage(page);
-    await expect(await salesPage.isSalesStatisticsPageDisplayed()).toBeTruthy();
+    expect(await salesPage.isSalesStatisticsPageDisplayed()).toBeTruthy();
 
+    const lastYear = new Date().getFullYear() - 1;
     const actualYearMonthHeader = await salesPage.grabYearMonthHeader();
-    expect(actualYearMonthHeader).toEqual(year + ' Month');
+    expect(actualYearMonthHeader).toEqual(lastYear + ' Month');
 
-    await expect(await salesPage.isMonthCellDisplayed(month)).toBeTruthy();
+    expect(await salesPage.isMonthCellDisplayed(month)).toBeTruthy();
 });
 
 Then('the total {string} sales amount is {string}', async function (month: string, expectedSalesAmount: string) {

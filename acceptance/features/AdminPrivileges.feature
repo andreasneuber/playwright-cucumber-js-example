@@ -14,5 +14,5 @@ Feature: Admin Privileges
 
   @background
   Scenario: Admin can access Sales statistics
-    When Admin looks up total sales amount for month "June" in year "2022"
+    When Admin looks up the total sales amount for month "June" of last year
     Then the total "June" sales amount is "32164"
