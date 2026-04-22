@@ -2,13 +2,13 @@ name: Test-Sample-Site-with-Playwright
 services:
     sample-site:
         ports:
-            - "8000:8000"
+            - "5000:5000"
         stdin_open: true
         tty: true
-        image: sample-site:latest
-        command: php -S 0.0.0.0:8000
+        image: automatic-test-sample-site-py:latest
+        command: php -S 0.0.0.0:5000
         healthcheck:
-            test: curl --fail http://localhost:8000 || exit 1
+            test: curl --fail http://localhost:5000 || exit 1
             interval: 30s
             retries: 5
             start_period: 10s
@@ -20,7 +20,7 @@ services:
         image: playwright-cucumber-ts-docker:latest
         command: bash -c "npm run build && npm run test:normal && npm run report"
         environment:
-            - BASE_URL=${BASE_URL:-http://localhost:8000/index.php}
+            - BASE_URL=${BASE_URL:-http://localhost:5000/index.php}
             - BROWSER=${BROWSER:-chromium}
             - HEADLESS=${HEADLESS:-true}
             - SCREENSHOT_ON_FAILURE=${SCREENSHOT_ON_FAILURE:-true}
