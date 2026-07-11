@@ -6,21 +6,22 @@
     "build": "tsc",
     "test:e2e": "npm run build && cucumber-js --require dist/cucumber.conf.js --require dist/acceptance/stepDefinitions/**/*.js --format progress-bar",
     "test:normal": "npm run build && cucumber-js --require dist/cucumber.conf.js --require dist/acceptance/stepDefinitions/**/*.js --format progress-bar acceptance/features/*.feature",
-    "test:all": "npm run build && cucumber-js --require dist/cucumber.conf.js --require dist/acceptance/stepDefinitions/**/*.js -f json:cucumber_report.json --publish-quiet acceptance/features/*.feature",
+    "test:all": "npm run build && cucumber-js --require dist/cucumber.conf.js --require dist/acceptance/stepDefinitions/**/*.js -f json:cucumber_report.json acceptance/features/*.feature",
     "report": "npm run build && node dist/reporter.js"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^13.0.0",
     "@cucumber/pretty-formatter": "^4.0.0",
-    "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.3",
+    "@playwright/test": "^1.61.1",
+    "playwright": "^1.61.1",
+    "@types/node": "^26.1.1",
     "cucumber-html-reporter": "^7.2.0",
     "dotenv": "^17.4.2",
-    "playwright": "^1.60.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "overrides": {
-    "semver": "^7.5.3"
+    "semver": "^7.5.3",
+    "uuid": "^11.1.1"
   }
 }

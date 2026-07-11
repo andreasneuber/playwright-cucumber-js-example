@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 165384800
+              "duration": 122359100
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 6,
             "name": "I navigate to login page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 88951399
+              "duration": 152664500
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I submit username \"admin\" and password \"pw1234\"",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 222110899
+              "duration": 511442199
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I will be logged into the Admin Dashboard",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2079700
+              "duration": 3740800
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 12,
             "name": "Admin searches for employee \"Joe Doe\"",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:25"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 224924300
+              "duration": 417372499
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 13,
             "name": "information appears that employee \"Joe Doe\" belongs to department \"Marketing\"",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:34"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 19762400
+              "duration": 13942000
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 47096099
+              "duration": 22608799
             }
           }
         ],
@@ -111,7 +111,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 111150899
+              "duration": 135341500
             }
           },
           {
@@ -120,11 +120,11 @@
             "line": 6,
             "name": "I navigate to login page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 67549800
+              "duration": 152644200
             }
           },
           {
@@ -133,11 +133,11 @@
             "line": 7,
             "name": "I submit username \"admin\" and password \"pw1234\"",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 159124800
+              "duration": 471467000
             }
           },
           {
@@ -146,24 +146,24 @@
             "line": 8,
             "name": "I will be logged into the Admin Dashboard",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 838999
+              "duration": 485900
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 17,
-            "name": "Admin looks up total sales amount for month \"June\" in year \"2022\"",
+            "name": "Admin looks up the total sales amount for month \"June\" of last year",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:45"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:39"
             },
             "result": {
               "status": "passed",
-              "duration": 131888799
+              "duration": 169168700
             }
           },
           {
@@ -172,11 +172,11 @@
             "line": 18,
             "name": "the total \"June\" sales amount is \"32164\"",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:57"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 2810999
+              "duration": 1562199
             }
           },
           {
@@ -184,7 +184,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29289800
+              "duration": 30797199
             }
           }
         ],
@@ -219,7 +219,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 123065499
+              "duration": 150579799
             }
           },
           {
@@ -228,11 +228,11 @@
             "line": 6,
             "name": "different people went to different sites",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:9"
+              "location": "dist\\acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 269660799
+              "duration": 440642600
             }
           },
           {
@@ -241,11 +241,11 @@
             "line": 7,
             "name": "they realize that they forgot what they actually wanted to do there",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:19"
+              "location": "dist\\acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 345670800
+              "duration": 753279099
             }
           },
           {
@@ -254,11 +254,11 @@
             "line": 8,
             "name": "they leave the sites again",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:32"
+              "location": "dist\\acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 1189900
+              "duration": 881800
             }
           },
           {
@@ -266,7 +266,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61013100
+              "duration": 49154999
             }
           }
         ],
@@ -301,7 +301,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 119992700
+              "duration": 137699000
             }
           },
           {
@@ -310,11 +310,11 @@
             "line": 6,
             "name": "I provide \"30\" degree Celsius",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:6"
+              "location": "dist\\acceptance\\stepDefinitions\\ConvertCelsiusContext.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 109042799
+              "duration": 260004500
             }
           },
           {
@@ -323,11 +323,11 @@
             "line": 7,
             "name": "I click the convert button",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:11"
+              "location": "dist\\acceptance\\stepDefinitions\\ConvertCelsiusContext.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 98784299
+              "duration": 124387700
             }
           },
           {
@@ -336,11 +336,11 @@
             "line": 8,
             "name": "I should see as result \"86\" Fahrenheit",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:15"
+              "location": "dist\\acceptance\\stepDefinitions\\ConvertCelsiusContext.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 10277700
+              "duration": 11740600
             }
           },
           {
@@ -348,7 +348,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26858099
+              "duration": 24672900
             }
           }
         ],
@@ -383,7 +383,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 144546499
+              "duration": 133844799
             }
           },
           {
@@ -392,11 +392,11 @@
             "line": 6,
             "name": "User is on card card entry page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 82331499
+              "duration": 153735200
             }
           },
           {
@@ -405,11 +405,11 @@
             "line": 7,
             "name": "User Joe Doe enters card number 4242424242424242 together with expiry date 10/27 and cvv 753",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 181995900
+              "duration": 609043700
             }
           },
           {
@@ -418,11 +418,11 @@
             "line": 8,
             "name": "the page will respond with Success and provide as reason You are using VISA",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 16197600
+              "duration": 16411600
             }
           },
           {
@@ -430,7 +430,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 21725800
+              "duration": 23641200
             }
           }
         ],
@@ -454,7 +454,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 122874100
+              "duration": 127975300
             }
           },
           {
@@ -463,11 +463,11 @@
             "line": 6,
             "name": "User is on card card entry page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 79725599
+              "duration": 140141999
             }
           },
           {
@@ -476,11 +476,11 @@
             "line": 7,
             "name": "User Hans Hansen enters card number 5555555555554444 together with expiry date 02/28 and cvv 159",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 191166000
+              "duration": 624915700
             }
           },
           {
@@ -489,11 +489,11 @@
             "line": 8,
             "name": "the page will respond with Success and provide as reason You are using MASTERCARD",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 11358000
+              "duration": 12908800
             }
           },
           {
@@ -501,7 +501,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23594699
+              "duration": 22459100
             }
           }
         ],
@@ -525,7 +525,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 126555099
+              "duration": 123795399
             }
           },
           {
@@ -534,11 +534,11 @@
             "line": 6,
             "name": "User is on card card entry page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 85747200
+              "duration": 154356299
             }
           },
           {
@@ -547,11 +547,11 @@
             "line": 7,
             "name": "User Eugene Tonya enters card number 4000000000009995 together with expiry date 07/26 and cvv 741",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 193207400
+              "duration": 637871100
             }
           },
           {
@@ -560,11 +560,11 @@
             "line": 8,
             "name": "the page will respond with Declined and provide as reason You have insufficient funds",
             "match": {
-              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+              "location": "dist\\acceptance\\stepDefinitions\\CreditCardContext.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 13418999
+              "duration": 13059199
             }
           },
           {
@@ -572,7 +572,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 21496700
+              "duration": 19666900
             }
           }
         ],
@@ -607,7 +607,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 117081400
+              "duration": 114934899
             }
           },
           {
@@ -616,11 +616,11 @@
             "line": 6,
             "name": "I navigate to login page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 76811400
+              "duration": 148159599
             }
           },
           {
@@ -646,11 +646,11 @@
             "line": 7,
             "name": "I enter following for login",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:7"
+              "location": "dist\\acceptance\\stepDefinitions\\LoginContext.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 48211000
+              "duration": 248086199
             }
           },
           {
@@ -659,11 +659,11 @@
             "line": 10,
             "name": "I click login button",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
+              "location": "dist\\acceptance\\stepDefinitions\\LoginContext.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 91465699
+              "duration": 220265999
             }
           },
           {
@@ -672,11 +672,11 @@
             "line": 11,
             "name": "I should be able to access the protected area",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
+              "location": "dist\\acceptance\\stepDefinitions\\LoginContext.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 10424800
+              "duration": 10583500
             }
           },
           {
@@ -684,7 +684,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18120699
+              "duration": 25606400
             }
           }
         ],
@@ -708,7 +708,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 144679900
+              "duration": 113107099
             }
           },
           {
@@ -717,11 +717,11 @@
             "line": 15,
             "name": "I navigate to login page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 78604600
+              "duration": 140991799
             }
           },
           {
@@ -747,11 +747,11 @@
             "line": 16,
             "name": "I enter following values to login",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:22"
+              "location": "dist\\acceptance\\stepDefinitions\\LoginContext.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 52583800
+              "duration": 264732500
             }
           },
           {
@@ -760,11 +760,11 @@
             "line": 19,
             "name": "I click login button",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
+              "location": "dist\\acceptance\\stepDefinitions\\LoginContext.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 111718899
+              "duration": 233695200
             }
           },
           {
@@ -773,11 +773,11 @@
             "line": 20,
             "name": "I should be able to access the protected area",
             "match": {
-              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
+              "location": "dist\\acceptance\\stepDefinitions\\LoginContext.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 10313000
+              "duration": 9552499
             }
           },
           {
@@ -785,7 +785,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 24259100
+              "duration": 19306599
             }
           }
         ],
@@ -820,7 +820,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 118591400
+              "duration": 105695400
             }
           },
           {
@@ -829,11 +829,11 @@
             "line": 6,
             "name": "I navigate to Information about yourself page",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:6"
+              "location": "dist\\acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 74760700
+              "duration": 145658499
             }
           },
           {
@@ -907,11 +907,11 @@
             "line": 7,
             "name": "I provide the following details",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:10"
+              "location": "dist\\acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 266242499
+              "duration": 1327050000
             }
           },
           {
@@ -920,11 +920,11 @@
             "line": 18,
             "name": "I will see message \"Thank you!\"",
             "match": {
-              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:27"
+              "location": "dist\\acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 12483599
+              "duration": 9303599
             }
           },
           {
@@ -932,7 +932,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 30781200
+              "duration": 22109599
             }
           }
         ],
