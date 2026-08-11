@@ -1,16 +1,15 @@
-import reporter from 'cucumber-html-reporter';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const reporter = require('multiple-cucumber-html-reporter');
 
 reporter.generate({
-    theme: 'bootstrap',
-    jsonFile: 'cucumber_report.json',
-    output: 'reports/cucumber_report.html',
-    reportSuiteAsScenarios: true,
-    scenarioTimestamp: true,
-    launchReport: false,
-    metadata: {
-        'App Version': '1.0.0',
-        'Test Environment': 'STAGING',
-        Browser: 'Chrome 110.0',
-        Platform: 'Windows 10',
-    },
+    jsonDir: '.',
+    reportPath: 'reports',
+    reportName: 'Cucumber Test Report',
+    pageTitle: 'Cucumber Test Report',
+    metadata: [
+        { name: 'App Version', value: '1.0.0' },
+        { name: 'Test Environment', value: 'STAGING' },
+        { name: 'Browser', value: 'Chrome 110.0' },
+        { name: 'Platform', value: 'Windows 10' },
+    ],
 });
